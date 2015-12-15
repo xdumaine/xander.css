@@ -132,6 +132,13 @@
                         linear-gradient(to right, #C5C1AE 35px, transparent 35px, transparent 39px, #C5C1AE 39px, #C5C1AE 75px);
 }
 
+@media only screen
+and (min-device-width : 320px) {
+    .controller div {
+        zoom: 0.8;
+    }
+}
+
 .lightning {
     background-color: rebeccapurple;
 }
