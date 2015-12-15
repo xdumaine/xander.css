@@ -4,6 +4,14 @@ body {
     background-color: royalblue;
 }
 
+a {
+    color: peru;
+}
+
+a:visited {
+    color: orangered;
+}
+
 .drawings {
     display: flex;
     flex-wrap: wrap;
