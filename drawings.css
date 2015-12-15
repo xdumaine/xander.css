@@ -61,6 +61,7 @@
     position: relative;
     width: 300px;
     height: 100px;
+    box-sizing: content-box;
     background-color: #282828;
     background-image: radial-gradient(circle at 104px 17px, #282828 0, #282828 8px, transparent 8px), radial-gradient(circle at 104px 37px, #282828 0, #282828 8px, transparent 8px), radial-gradient(circle at 104px 57px, #282828 0, #282828 8px, transparent 8px), radial-gradient(circle at 104px 87px, #282828 0, #282828 8px, transparent 8px), radial-gradient(circle at 195px 17px, #282828 0, #282828 8px, transparent 8px), radial-gradient(circle at 195px 37px, #282828 0, #282828 8px, transparent 8px), radial-gradient(circle at 195px 57px, #282828 0, #282828 8px, transparent 8px), radial-gradient(circle at 195px 87px, #282828 0, #282828 8px, transparent 8px), radial-gradient(ellipse at 130px 73px, #282828 0, #282828 15px, transparent 5px), radial-gradient(ellipse at 165px 73px, #282828 0, #282828 15px, transparent 5px), radial-gradient(ellipse at 132px 74px, black 0, black 10px, transparent 15px), radial-gradient(ellipse at 167px 74px, #282828 0, #282828 10px, transparent 15px), linear-gradient(to bottom, transparent 15px, #282828 15px, #282828 20px, transparent 20px, transparent 35px, #282828 35px, #282828 40px, transparent 40px, transparent 55px, #282828 55px, #282828 60px, transparent 60px, transparent 85px, #282828 85px, #282828 90px, transparent 90px), linear-gradient(to right, transparent 110px, #C5C1AE 110px, #C5C1AE 190px, transparent 190px, transparent 100%);
     border: 15px solid #C5C1AE;
