@@ -60,6 +60,7 @@
     position: relative;
     width: 300px;
     height: 100px;
+    box-sizing: content-box;
     background-color: #282828;
     background-image: radial-gradient(circle at 104px 17px, #282828 0, #282828 8px, transparent 8px),
     radial-gradient(circle at 104px 37px, #282828 0, #282828 8px, transparent 8px),
