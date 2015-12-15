@@ -131,3 +131,41 @@
                         radial-gradient(circle at 57px 18px, #C70505 0, #C70505 14px, transparent 16px),
                         linear-gradient(to right, #C5C1AE 35px, transparent 35px, transparent 39px, #C5C1AE 39px, #C5C1AE 75px);
 }
+
+.lightning div {
+    position: relative;
+    height: 250px;
+    width: 250px;
+    background-image:   radial-gradient(circle at 100px 80px, darkgray 0, darkgray 30px, transparent 40px),
+                        radial-gradient(circle at 140px 70px, darkgray 0, darkgray 40px, transparent 50px),
+                        radial-gradient(circle at 175px 80px, darkgray 0, darkgray 25px, transparent 35px),
+                        radial-gradient(circle at 70px 90px, darkgray 0, darkgray 20px, transparent 25px);
+}
+
+.lightning div:before {
+    perspective: 5px;
+    transform: rotateY(25deg) rotateX(-45deg);
+    content: "";
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    border-bottom: 1px solid transparent;
+    border-left: 1px solid goldenrod;
+    border-top: 100px solid goldenrod;
+    border-right: 30px solid transparent;
+    box-shadow: -10px -95px 30px -5px goldenrod;
+}
+
+.lightning div:after {
+    perspective: 5px;
+    transform: rotateY(25deg) rotateX(-45deg);
+    content: "";
+    position: absolute;
+    top: 60px;
+    left: 105px;
+    border-top: 1px solid transparent;
+    border-right: 1px solid goldenrod;
+    border-bottom: 100px solid goldenrod;
+    border-left: 30px solid transparent;
+    box-shadow: 10px 95px 30px -5px goldenrod;
+}
