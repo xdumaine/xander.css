@@ -180,3 +180,44 @@ and (min-device-width : 320px) {
     border-left: 30px solid transparent;
     box-shadow: 10px 95px 30px -5px goldenrod;
 }
+
+.webrtc {
+    background-color: silver;
+}
+
+.webrtc div {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    background-image:   radial-gradient(circle at 55px 100px, #4B85C3 0, #4B85C3 50px, transparent 50px),
+                        radial-gradient(circle at 80px 175px, #DB7032 0, #DB7032 50px, transparent 50px),
+                        radial-gradient(circle at 170px 175px, #579546 0, #579546 50px, transparent 50px),
+                        radial-gradient(circle at 195px 100px, #EFCB3E 0, #EFCB3E 50px, transparent 50px),
+                        radial-gradient(circle at 125px 50px, #A02B26 0, #A02B26 50px, transparent 50px);
+}
+
+.webrtc div:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100px;
+    width: 150px;
+    margin: auto;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.webrtc div:after {
+    perspective: 5;
+    content: "";
+    position: absolute;
+    top: 160px;
+    left: 50px;
+    border-top: 50px solid white;
+    border-right: 70px solid transparent;
+    perspective: 5px;
+    transform: rotateX(25deg) rotateZ(40deg) rotateY(-55deg);
+}
