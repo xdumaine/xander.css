@@ -19,6 +19,7 @@ a:visited {
 
 .drawing {
     height: 250px;
+    min-width: 250px;
     padding: 20px;
     flex: 1 0 auto;
     display: flex;
