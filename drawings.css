@@ -1,0 +1,53 @@
+.inin-logo {
+    background-color: honeydew;
+}
+
+.inin-logo div {
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+    position: relative;
+    background-image:   linear-gradient(to bottom, transparent 50px, #0F465D 50px, #0F465D 52px, transparent 52px, transparent),
+                        radial-gradient(circle at 4px, #0F465D 4px, transparent 4px),
+                        radial-gradient(circle at 96px, #0F465D 4px, transparent 4px),
+                        radial-gradient(circle at 50px, #0F465D 4px, transparent 4px);
+    border-radius: 50%;
+}
+
+.inin-logo div:before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: block;
+    content: "";
+    height: 14px;
+    width: 0;
+    border-radius: 50%;
+    border-top: 40px solid #0F465D;
+    border-right: 40px solid transparent;
+    border-bottom: 40px solid #0F465D;
+    border-left: 40px solid transparent;
+    transform: rotate(45deg);
+}
+
+.inin-logo div:after {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    display: block;
+    content: "";
+    width: 12px;
+    height: 0;
+    border-radius: 50%;
+    border-top: 30px solid transparent;
+    border-right: 30px solid #4CC5D8;
+    border-bottom: 30px solid transparent;
+    border-left: 30px solid #4CC5D8;
+    transform: rotate(45deg);
+}

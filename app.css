@@ -1,0 +1,34 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0px;
+    background-color: royalblue;
+}
+
+.drawings {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.drawing {
+    height: 250px;
+    padding: 20px;
+    flex: 1 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.drawing > div {
+    display: inline-block;
+}
+
+.drawing dl dt {
+}
+
+footer {
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+    padding: 20px;
+    background-color: mediumturquoise;
+}
