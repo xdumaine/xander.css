@@ -14,7 +14,7 @@ a:visited {
 
 .drawings {
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
 }
 
 .drawing {
