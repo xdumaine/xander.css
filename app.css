@@ -21,7 +21,7 @@ a:visited {
     height: 250px;
     min-width: 250px;
     padding: 20px;
-    flex: 1 0 auto;
+    flex: 1 0 0;
     display: flex;
     align-items: center;
     justify-content: center;
