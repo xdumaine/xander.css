@@ -233,36 +233,34 @@ and (min-device-width : 320px) {
     border-radius: 50%;
     box-shadow: -8px 8px 10px rgba(0, 0, 0, 0.3);
     background-image:
-                        radial-gradient(circle at 67px 72px, white 0, white 25px, transparent 35px),
-                        radial-gradient(circle at 60px 75px, transparent 0, transparent 15px, sienna 20px, transparent 25px),
-                        radial-gradient(circle at 60px 70px, white 0, white 20px, transparent 35px),
+                        radial-gradient(circle at 67px 72px, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, .5) 25px, transparent 35px),
+                        radial-gradient(circle at 60px 70px, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, .5) 20px, transparent 35px),
 
-                        radial-gradient(circle at 113px 72px, white 0, white 25px, transparent 35px),
+                        radial-gradient(circle at 113px 72px, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, .5) 25px, transparent 35px),
+                        radial-gradient(circle at 120px 70px, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, .5) 20px, transparent 35px),
 
-                        radial-gradient(circle at 120px 70px, white 0, white 20px, transparent 35px),
-
-                        radial-gradient(circle at 90px 90px, white 0, white 15px, transparent 25px),
+                        radial-gradient(circle at 90px 90px, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, .5) 15px, transparent 25px),
 
                         radial-gradient(circle at 70px 60px, sienna 0, sienna 25px, transparent 55px, transparent 65px),
                         radial-gradient(circle at 90px 60px, sienna 0, sienna 25px, transparent 55px, transparent 65px),
 
-                        radial-gradient(circle at 90px 70px, white 0, white 35px, transparent 50px),
+                        radial-gradient(circle at 90px 70px, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, .5) 35px, transparent 50px),
                         radial-gradient(circle at 90px 75px, transparent 0, transparent 35px, sienna 40px, transparent 45px),
-                        radial-gradient(circle at 90px 70px, white 0, white 30px, transparent 40px),
+                        radial-gradient(circle at 90px 70px, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, .5) 30px, transparent 40px),
 
-                        radial-gradient(circle at 90px 80px, white 0, white 35px, transparent 50px),
+                        radial-gradient(circle at 90px 80px, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, .5) 35px, transparent 50px),
                         radial-gradient(circle at 90px 85px, transparent 0, transparent 35px, sienna 40px, transparent 45px),
-                        radial-gradient(circle at 90px 80px, white 0, white 30px, transparent 40px),
+                        radial-gradient(circle at 90px 80px, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, .5) 30px, transparent 40px),
 
-                        radial-gradient(circle at 90px 90px, white 0, white 35px, transparent 50px),
+                        radial-gradient(circle at 90px 90px, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, .5) 35px, transparent 50px),
                         radial-gradient(circle at 90px 95px, transparent 0, transparent 35px, sienna 40px, transparent 45px),
-                        radial-gradient(circle at 90px 90px, white 0, white 30px, transparent 40px),
+                        radial-gradient(circle at 90px 90px, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, .5) 30px, transparent 40px),
 
-                        radial-gradient(circle at 90px 120px, white 0, white 15px, transparent 30px),
+                        radial-gradient(circle at 90px 120px, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, .5) 15px, transparent 30px),
                         radial-gradient(circle at 90px 125px, transparent 0, transparent 15px, sienna 20px, transparent 25px),
-                        radial-gradient(circle at 90px 110px, white 0, white 15px, transparent 30px),
+                        radial-gradient(circle at 90px 110px, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, .5) 15px, transparent 30px),
 
-                        radial-gradient(circle at 90px 140px, white 0, white 5px, transparent 20px),
+                        radial-gradient(circle at 90px 140px, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, .5) 5px, transparent 20px),
 
                         radial-gradient(circle at 90px 90px, brown 0, sienna 80px, #E6E6E6 85px, transparent 90px);
 }
