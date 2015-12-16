@@ -230,6 +230,7 @@ and (min-device-width : 320px) {
     position: relative;
     height: 180px;
     width: 180px;
+    transform: translateX(-85px);
     border-radius: 50%;
     box-shadow: -8px 8px 10px rgba(0, 0, 0, 0.3);
     background-image:

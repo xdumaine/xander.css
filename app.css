@@ -27,6 +27,10 @@ a:visited {
     justify-content: center;
 }
 
+.drawing.wide {
+    min-width: 100%;
+}
+
 .drawing > div {
     display: inline-block;
 }
