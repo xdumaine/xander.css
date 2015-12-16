@@ -13,15 +13,25 @@ a:visited {
 }
 
 .drawings {
+    display: -webkit-flex;
     display: flex;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-flow: row wrap;
+    -moz-flex-flow: row wrap;
+    -ms-flex-flow: row wrap;
     flex-flow: row wrap;
+    margin: 0 auto;
 }
 
 .drawing {
     height: 250px;
-    min-width: 250px;
+    min-width: 320px;
     padding: 20px;
-    flex: 1 0 0;
+    flex: 1 0 auto;
+    margin: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,6 +39,7 @@ a:visited {
 }
 
 .drawing.wide {
+    flex-basis: 100%;
     min-width: 100%;
 }
 

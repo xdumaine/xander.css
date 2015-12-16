@@ -189,11 +189,11 @@ and (min-device-width : 320px) {
     width: 250px;
     height: 250px;
     position: relative;
-    background-image:   radial-gradient(circle at 55px 100px, #4B85C3 0, #4B85C3 50px, transparent 50px),
-                        radial-gradient(circle at 80px 175px, #DB7032 0, #DB7032 50px, transparent 50px),
-                        radial-gradient(circle at 170px 175px, #579546 0, #579546 50px, transparent 50px),
-                        radial-gradient(circle at 195px 100px, #EFCB3E 0, #EFCB3E 50px, transparent 50px),
-                        radial-gradient(circle at 125px 50px, #A02B26 0, #A02B26 50px, transparent 50px);
+    background-image:   radial-gradient(circle at 55px 105px, #4B85C3 0, #4B85C3 50px, transparent 50px),
+                        radial-gradient(circle at 80px 180px, #DB7032 0, #DB7032 50px, transparent 50px),
+                        radial-gradient(circle at 170px 180px, #579546 0, #579546 50px, transparent 50px),
+                        radial-gradient(circle at 195px 105px, #EFCB3E 0, #EFCB3E 50px, transparent 50px),
+                        radial-gradient(circle at 125px 55px, #A02B26 0, #A02B26 50px, transparent 50px);
 }
 
 .webrtc div:before {
@@ -203,8 +203,8 @@ and (min-device-width : 320px) {
     left: 0;
     right: 0;
     bottom: 0;
-    height: 100px;
-    width: 150px;
+    height: 105px;
+    width: 140px;
     margin: auto;
     border-radius: 10px;
     background-color: white;
@@ -230,7 +230,7 @@ and (min-device-width : 320px) {
     position: relative;
     height: 180px;
     width: 180px;
-    transform: translateX(-85px);
+    transform: translateX(-85px) translateY(-10px);
     border-radius: 50%;
     box-shadow: -8px 8px 10px rgba(0, 0, 0, 0.3);
     background-image:
