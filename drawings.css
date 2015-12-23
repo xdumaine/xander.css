@@ -81,10 +81,10 @@
     border-top: 25px solid #C5C1AE;
     border-radius: 5px;
     background-size 15px 15px;
-    perspective: 5;
-    transform:  rotateX(10deg)
+    transform:  perspective(750px)
+                rotateX(10deg)
                 rotateY(-10deg)
-                translateZ(-10px);
+                rotateZ(3deg);
     box-shadow: 1px 0px 0 #8C8979,
                 0px 1px 0 #8C8979,
                 3px 2px 0 #8C8979,
@@ -130,13 +130,6 @@
                         radial-gradient(circle at 55px 16px, orangered 0, orangered 15px, transparent 14px),
                         radial-gradient(circle at 57px 18px, #C70505 0, #C70505 14px, transparent 16px),
                         linear-gradient(to right, #C5C1AE 35px, transparent 35px, transparent 39px, #C5C1AE 39px, #C5C1AE 75px);
-}
-
-@media only screen
-and (min-device-width : 320px) {
-    .controller div {
-        zoom: 0.8;
-    }
 }
 
 .lightning {
