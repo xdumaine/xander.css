@@ -288,3 +288,254 @@
                         radial-gradient(circle at 105px 20px, #713A3A 0, #713A3A 20px, transparent 23px);
         box-shadow: -5px 5px 10px rgba(0, 0, 0, .3), inset 0 0 10px 10px white, inset 1px -1px 1px 15px darkgray;
 }
+
+.hamburger-animation {
+    background-color: darkgreen;
+}
+
+.hamburger-animation div {
+    box-sizing: border-box;
+    background-origin: content-box;
+    position: relative;
+    height: 20px;
+    width: 125px;
+    cursor: pointer;
+
+    background-image:   radial-gradient(circle at 10px 10px, lightgray 0, lightgray 10px, transparent 10px),
+                        radial-gradient(circle at 115px 10px, lightgray 0, lightgray 10px, transparent 10px),
+                        linear-gradient(to right, darkgreen 0, darkgreen 10px, transparent 10px, transparent 115px, darkgreen 115px),
+                        linear-gradient(to bottom,
+                            lightgray 0, lightgray 20px,
+                            transparent 20px, transparent 30px)
+                        ;
+}
+
+.hamburger-animation div:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 125px;
+    top: -30px;
+    cursor: pointer;
+
+    background-image:   radial-gradient(circle at 10px 10px, lightgray 0, lightgray 10px, transparent 10px),
+                        radial-gradient(circle at 115px 10px, lightgray 0, lightgray 10px, transparent 10px),
+                        linear-gradient(to right, darkgreen 0, darkgreen 10px, transparent 10px, transparent 115px, darkgreen 115px),
+                        linear-gradient(to bottom,
+                            lightgray 0, lightgray 20px,
+                            transparent 20px, transparent 30px)
+                        ;
+}
+
+.hamburger-animation div:after {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 125px;
+    top: 30px;
+    cursor: pointer;
+
+    background-image:   radial-gradient(circle at 10px 10px, lightgray 0, lightgray 10px, transparent 10px),
+                        radial-gradient(circle at 115px 10px, lightgray 0, lightgray 10px, transparent 10px),
+                        linear-gradient(to right, darkgreen 0, darkgreen 10px, transparent 10px, transparent 115px, darkgreen 115px),
+                        linear-gradient(to bottom,
+                            lightgray 0, lightgray 20px,
+                            transparent 20px, transparent 30px)
+                        ;
+}
+
+.hamburger-animation div:focus {
+    outline: none;
+    animation-name: hamburger-0;
+    animation-direction: reverse;
+    animation-duration: .6s;
+    animation-timing-function: linear
+    animation-iteration-count: 1;
+}
+
+.hamburger-animation div:focus:before {
+    outline: none;
+    animation-name: crossX1-0;
+    animation-direction: reverse;
+    animation-duration: .6s;
+    animation-timing-function: linear
+    animation-iteration-count: 1;
+}
+
+.hamburger-animation div:focus::after {
+    outline: none;
+    animation-name: crossX2-0;
+    animation-direction: reverse;
+    animation-duration: .6s;
+    animation-timing-function: linear
+    animation-iteration-count: 1;
+}
+
+.hamburger-animation div:active {
+    animation-name: hamburger;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+.hamburger-animation div:active:before {
+    animation-name: crossX1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+.hamburger-animation div:active:after {
+    animation-name: crossX2;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+
+}
+
+
+
+@keyframes hamburger {
+    1% {
+        background-image: none;
+        background-color: lightgray;
+        border-radius: 50%;
+    }
+    100% {
+        padding-left: 52.5px;
+        padding-right: 52.5px;
+        background-image: radial-gradient(circle at 10px 10px, lightgray 0, lightgray 10px, transparent 10px);
+        background-repeat: no-repeat;
+    }
+}
+
+@keyframes hamburger-0 {
+    1% {
+        background-image: none;
+        background-color: lightgray;
+        border-radius: 50%;
+    }
+    100% {
+        padding-left: 52.5px;
+        padding-right: 52.5px;
+        background-image: radial-gradient(circle at 10px 10px, lightgray 0, lightgray 10px, transparent 10px);
+        background-repeat: no-repeat;
+    }
+}
+
+@keyframes crossX1 {
+    0 {    }
+    6 % {
+        transform: translate(-42px, 0px) rotate(45deg);
+        width: 20px;
+        background-image: none;
+        background-color: lightgray;
+        border-radius: 50%;
+    }
+    12% {
+        transform: translate(-85px, 0px) rotate(90deg);
+    }
+    25% {
+        transform: translate(0px, -25px) rotate(180deg);
+    }
+    50% {
+        transform: translate(85px, 0px) rotate(270deg);
+    }
+    75% {
+        transform: translate(-50px, 95px) rotate(360deg);
+        width: 20px;
+        background-image: none;
+        background-color: lightgray;
+        border-radius: 50%;
+    }
+    100% {
+        transform: translate(-50px, 30px) rotate(495deg);
+    }
+}
+
+@keyframes crossX1-0 {
+    0 {    }
+    6 % {
+        transform: translate(-42px, 0px) rotate(45deg);
+        width: 20px;
+        background-image: none;
+        background-color: lightgray;
+        border-radius: 50%;
+    }
+    12% {
+        transform: translate(-85px, 0px) rotate(90deg);
+    }
+    25% {
+        transform: translate(0px, -25px) rotate(180deg);
+    }
+    50% {
+        transform: translate(85px, 0px) rotate(270deg);
+    }
+    75% {
+        transform: translate(-50px, 95px) rotate(360deg);
+        width: 20px;
+        background-image: none;
+        background-color: lightgray;
+        border-radius: 50%;
+    }
+    100% {
+        transform: translate(-50px, 30px) rotate(495deg);
+    }
+}
+
+@keyframes crossX2 {
+    0 {    }
+    6 % {
+        transform: translate(76px, 0px) rotate(-45deg);
+        width: 20px;
+        background-image: none;
+        background-color: lightgray;
+        border-radius: 50%;
+    }
+    12% {
+        transform: translate(155px, 0px) rotate(-90deg);
+    }
+    25% {
+        transform: translate(0px, 25px) rotate(-180deg);
+    }
+    50% {
+        transform: translate(-85px, 0px) rotate(-270deg);
+    }
+    75% {
+        transform: translate(-50px, -95px) rotate(-360deg);
+        width: 20px;
+        background-image: none;
+        background-color: lightgray;
+        border-radius: 50%;
+    }
+    100% {
+        transform: translate(-50px, -30px) rotate(-495deg);
+    }
+}
+
+@keyframes crossX2-0 {
+    0 {    }
+    6 % {
+        transform: translate(76px, 0px) rotate(-45deg);
+        width: 20px;
+        background-image: none;
+        background-color: lightgray;
+        border-radius: 50%;
+    }
+    12% {
+        transform: translate(155px, 0px) rotate(-90deg);
+    }
+    25% {
+        transform: translate(0px, 25px) rotate(-180deg);
+    }
+    50% {
+        transform: translate(-85px, 0px) rotate(-270deg);
+    }
+    75% {
+        transform: translate(-50px, -95px) rotate(-360deg);
+        width: 20px;
+        background-image: none;
+        background-color: lightgray;
+        border-radius: 50%;
+    }
+    100% {
+        transform: translate(-50px, -30px) rotate(-495deg);
+    }
+}
