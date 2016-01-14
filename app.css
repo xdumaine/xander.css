@@ -13,6 +13,7 @@ a:visited {
 }
 
 .drawings {
+    outline: none;
     display: -webkit-flex;
     display: flex;
     -webkit-flex-direction: row;

@@ -422,12 +422,14 @@
 
 @keyframes crossX1 {
     0 {    }
-    6 % {
-        transform: translate(-42px, 0px) rotate(45deg);
+    1% {
         width: 20px;
         background-image: none;
         background-color: lightgray;
         border-radius: 50%;
+    }
+    6 % {
+        transform: translate(-42px, 0px) rotate(45deg);
     }
     12% {
         transform: translate(-85px, 0px) rotate(90deg);
@@ -452,12 +454,14 @@
 
 @keyframes crossX1-0 {
     0 {    }
-    6 % {
-        transform: translate(-42px, 0px) rotate(45deg);
+    1% {
         width: 20px;
         background-image: none;
         background-color: lightgray;
         border-radius: 50%;
+    }
+    6 % {
+        transform: translate(-42px, 0px) rotate(45deg);
     }
     12% {
         transform: translate(-85px, 0px) rotate(90deg);
@@ -482,12 +486,14 @@
 
 @keyframes crossX2 {
     0 {    }
-    6 % {
-        transform: translate(76px, 0px) rotate(-45deg);
+    1% {
         width: 20px;
         background-image: none;
         background-color: lightgray;
         border-radius: 50%;
+    }
+    6% {
+        transform: translate(76px, 0px) rotate(-45deg);
     }
     12% {
         transform: translate(155px, 0px) rotate(-90deg);
@@ -512,12 +518,14 @@
 
 @keyframes crossX2-0 {
     0 {    }
-    6 % {
-        transform: translate(76px, 0px) rotate(-45deg);
+    1% {
         width: 20px;
         background-image: none;
         background-color: lightgray;
         border-radius: 50%;
+    }
+    6% {
+        transform: translate(76px, 0px) rotate(-45deg);
     }
     12% {
         transform: translate(155px, 0px) rotate(-90deg);
