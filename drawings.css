@@ -62,6 +62,7 @@
     height: 100px;
     min-width: 300px;
     box-sizing: content-box;
+    outline: none;
     background-color: #282828;
     background-image:   radial-gradient(circle at 104px 17px, #282828 0, #282828 8px, transparent 8px),
                         radial-gradient(circle at 104px 37px, #282828 0, #282828 8px, transparent 8px),
@@ -124,10 +125,19 @@
     width: 75px;
     content: "";
     border-radius: 5px;
+    cursor: pointer;
     background-color: transparent;
     background-image:   radial-gradient(circle at 15px 16px, orangered 0, orangered 15px, transparent 15px),
                         radial-gradient(circle at 17px 18px, #C70505 0, #C70505 14px, transparent 16px),
                         radial-gradient(circle at 55px 16px, orangered 0, orangered 15px, transparent 14px),
+                        radial-gradient(circle at 57px 18px, #C70505 0, #C70505 14px, transparent 16px),
+                        linear-gradient(to right, #C5C1AE 35px, transparent 35px, transparent 39px, #C5C1AE 39px, #C5C1AE 75px);
+}
+
+.controller div:active:after {
+    background-image:   radial-gradient(circle at 15px 16px, orangered 0, orangered 15px, transparent 15px),
+                        radial-gradient(circle at 17px 18px, #C70505 0, #C70505 14px, transparent 16px),
+                        radial-gradient(circle at 56px 18px, orangered 0, orangered 15px, transparent 14px),
                         radial-gradient(circle at 57px 18px, #C70505 0, #C70505 14px, transparent 16px),
                         linear-gradient(to right, #C5C1AE 35px, transparent 35px, transparent 39px, #C5C1AE 39px, #C5C1AE 75px);
 }
