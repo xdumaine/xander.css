@@ -533,3 +533,42 @@
         transform: translate(-50px, -30px) rotate(315deg);
     }
 }
+
+.code {
+    background-color: black;
+}
+
+.code div {
+    width: 550px;
+    height: 100%;
+    position: relative;
+    padding: 20px;
+}
+
+.code div:before {
+    position: absolute;
+    font-family: monospace;
+    font-size: 24px;
+    content: "— · — ·\00a0\00a0\00a0\00a0— — —\00a0\00a0\00a0\00a0\00a0— · ·\00a0\00a0\00a0\00a0\00a0\00a0\00a0·\00a0\00a0";
+    color: dodgerblue;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 550px;
+    padding: 20px;
+    top: 80px;
+}
+
+.code div:after {
+    position: absolute;
+    font-family: monospace;
+    font-size: 24px;
+    content: "1000011 \00a0 \00a0 1001111 \00a0 \00a0 1000100 \00a0 \00a0 1000101";
+    color: limegreen;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 550px;
+    padding: 20px;
+    top: 120px;
+}
