@@ -543,6 +543,7 @@
     height: 100%;
     position: relative;
     padding: 20px;
+    overflow-x: auto;
 }
 
 .code div:before {
