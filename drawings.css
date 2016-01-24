@@ -554,6 +554,37 @@
     position: relative;
     padding: 20px;
     overflow-x: auto;
+    /* 95, 133, 175 */
+    /* oo o. oo o. */
+    /* .. .o .o .o */
+    /* .. o. .. .. */
+    background-image:   radial-gradient(circle at 50px 95px, gold 0, gold 7px, transparent 7px),
+                        radial-gradient(circle at 90px 95px, gold 0, gold 7px, transparent 7px),
+                        radial-gradient(circle at 50px 133px, gold 0, gold 3px, transparent 3px),
+                        radial-gradient(circle at 90px 133px, gold 0, gold 3px, transparent 3px),
+                        radial-gradient(circle at 50px 175px, gold 0, gold 3px, transparent 3px),
+                        radial-gradient(circle at 90px 175px, gold 0, gold 3px, transparent 3px),
+
+                        radial-gradient(circle at 195px 95px, gold 0, gold 7px, transparent 7px),
+                        radial-gradient(circle at 235px 95px, gold 0, gold 3px, transparent 3px),
+                        radial-gradient(circle at 195px 133px, gold 0, gold 3px, transparent 3px),
+                        radial-gradient(circle at 235px 133px, gold 0, gold 7px, transparent 7px),
+                        radial-gradient(circle at 195px 175px, gold 0, gold 7px, transparent 7px),
+                        radial-gradient(circle at 235px 175px, gold 0, gold 3px, transparent 3px),
+
+                        radial-gradient(circle at 340px 95px, gold 0, gold 7px, transparent 7px),
+                        radial-gradient(circle at 380px 95px, gold 0, gold 7px, transparent 7px),
+                        radial-gradient(circle at 340px 133px, gold 0, gold 3px, transparent 3px),
+                        radial-gradient(circle at 380px 133px, gold 0, gold 7px, transparent 7px),
+                        radial-gradient(circle at 340px 175px, gold 0, gold 3px, transparent 3px),
+                        radial-gradient(circle at 380px 175px, gold 0, gold 3px, transparent 3px),
+
+                        radial-gradient(circle at 485px 95px, gold 0, gold 7px, transparent 7px),
+                        radial-gradient(circle at 525px 95px, gold 0, gold 3px, transparent 3px),
+                        radial-gradient(circle at 485px 133px, gold 0, gold 3px, transparent 3px),
+                        radial-gradient(circle at 525px 133px, gold 0, gold 7px, transparent 7px),
+                        radial-gradient(circle at 485px 175px, gold 0, gold 3px, transparent 3px),
+                        radial-gradient(circle at 525px 175px, gold 0, gold 3px, transparent 3px);
 }
 
 .code div:before {
