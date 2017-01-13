@@ -1,3 +1,7 @@
+@import 'animals.css';
+@import 'controller.css';
+@import 'latte.css';
+
 .inin-logo {
     background-color: honeydew;
 }
@@ -50,96 +54,6 @@
     border-bottom: 30px solid transparent;
     border-left: 30px solid #4CC5D8;
     transform: rotate(45deg);
-}
-
-.controller {
-    background-color: peru;
-}
-
-.controller div {
-    position: relative;
-    width: 300px;
-    height: 100px;
-    min-width: 300px;
-    box-sizing: content-box;
-    outline: none;
-    background-color: #282828;
-    background-image:   radial-gradient(circle at 104px 17px, #282828 0, #282828 8px, transparent 8px),
-                        radial-gradient(circle at 104px 37px, #282828 0, #282828 8px, transparent 8px),
-                        radial-gradient(circle at 104px 57px, #282828 0, #282828 8px, transparent 8px),
-                        radial-gradient(circle at 104px 87px, #282828 0, #282828 8px, transparent 8px),
-                        radial-gradient(circle at 195px 17px, #282828 0, #282828 8px, transparent 8px),
-                        radial-gradient(circle at 195px 37px, #282828 0, #282828 8px, transparent 8px),
-                        radial-gradient(circle at 195px 57px, #282828 0, #282828 8px, transparent 8px),
-                        radial-gradient(circle at 195px 87px, #282828 0, #282828 8px, transparent 8px),
-                        radial-gradient(ellipse at 130px 73px, #282828 0, #282828 15px, transparent 5px),
-                        radial-gradient(ellipse at 165px 73px, #282828 0, #282828 15px, transparent 5px),
-                        radial-gradient(ellipse at 132px 74px, black 0, black 10px, transparent 15px),
-                        radial-gradient(ellipse at 167px 74px, #282828 0, #282828 10px, transparent 15px),
-                        linear-gradient(to bottom, transparent 15px, #282828 15px, #282828 20px, transparent 20px, transparent 35px, #282828 35px, #282828 40px, transparent 40px, transparent 55px, #282828 55px, #282828 60px, transparent 60px, transparent 85px, #282828 85px, #282828 90px, transparent 90px),
-                        linear-gradient(to right, transparent 110px, #C5C1AE 110px, #C5C1AE 190px, transparent 190px, transparent 100%);
-    border: 15px solid #C5C1AE;
-    border-top: 25px solid #C5C1AE;
-    border-radius: 5px;
-    background-size 15px 15px;
-    transform:  perspective(750px)
-                rotateX(10deg)
-                rotateY(-10deg)
-                rotateZ(3deg);
-    box-shadow: 1px 0px 0 #8C8979,
-                0px 1px 0 #8C8979,
-                3px 2px 0 #8C8979,
-                2px 3px 0 #8C8979,
-                5px 5px 0 #8C8979,
-                6px 6px 0 #8C8979,
-                7px 7px 0 #8C8979,
-                8px 8px 0 #8C8979,
-                9px 9px 0 #8C8979,
-                10px 10px 0 #8C8979;
-}
-
-.controller div:before {
-    position: absolute;
-    left: 20px;
-    bottom: 20px;
-    content: "";
-    background-color: transparent;
-    height: 45px;
-    width: 45px;
-    box-shadow: 0 -13px 0 -10px #C5C1AE,
-                -13px 0 0 -10px #C5C1AE,
-                0 13px 0 -10px #C5C1AE,
-                13px 0 0 -10px #C5C1AE;
-    background-image:   radial-gradient(circle at 22.5px 22px, black 0, black 4px, transparent 5px),
-                        radial-gradient(circle at 22.5px 23px, darkgrey 0, darkgrey 4px, transparent 6px),
-                        linear-gradient(to right, transparent 0, transparent 13px, black 13px, black 30px, transparent 34px),
-                        linear-gradient(to bottom, transparent, 0, transparent 10px, #C5C1AE 10px, #C5C1AE 13px, black 13px, black 30px, #C5C1AE 32px, #C5C1AE 35px, transparent 35px),
-                        linear-gradient(to right, transparent 0, transparent 10px, #C5C1AE 10px, #C5C1AE 13px, black 13px, black 30px, #C5C1AE 32px, #C5C1AE 35px, transparent 35px);
-}
-
-.controller div:after {
-    position: absolute;
-    right: 20px;
-    bottom: 20px;
-    height: 35px;
-    width: 75px;
-    content: "";
-    border-radius: 5px;
-    cursor: pointer;
-    background-color: transparent;
-    background-image:   radial-gradient(circle at 15px 16px, orangered 0, orangered 15px, transparent 15px),
-                        radial-gradient(circle at 17px 18px, #C70505 0, #C70505 14px, transparent 16px),
-                        radial-gradient(circle at 55px 16px, orangered 0, orangered 15px, transparent 14px),
-                        radial-gradient(circle at 57px 18px, #C70505 0, #C70505 14px, transparent 16px),
-                        linear-gradient(to right, #C5C1AE 35px, transparent 35px, transparent 39px, #C5C1AE 39px, #C5C1AE 75px);
-}
-
-.controller div:active:after {
-    background-image:   radial-gradient(circle at 15px 16px, orangered 0, orangered 15px, transparent 15px),
-                        radial-gradient(circle at 17px 18px, #C70505 0, #C70505 14px, transparent 16px),
-                        radial-gradient(circle at 56px 18px, orangered 0, orangered 15px, transparent 14px),
-                        radial-gradient(circle at 57px 18px, #C70505 0, #C70505 14px, transparent 16px),
-                        linear-gradient(to right, #C5C1AE 35px, transparent 35px, transparent 39px, #C5C1AE 39px, #C5C1AE 75px);
 }
 
 .lightning {
@@ -223,80 +137,6 @@
     border-right: 70px solid transparent;
     perspective: 5px;
     transform: rotateX(25deg) rotateZ(40deg) rotateY(-55deg);
-}
-
-.latte {
-    background: burlywood;
-}
-
-.latte div {
-    position: relative;
-    height: 180px;
-    width: 180px;
-    transform: translateX(-85px) translateY(-10px);
-    border-radius: 50%;
-    box-shadow: -8px 8px 10px rgba(0, 0, 0, 0.3);
-    background-image:
-                        radial-gradient(circle at 67px 72px, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, .5) 25px, transparent 35px),
-                        radial-gradient(circle at 60px 70px, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, .5) 20px, transparent 35px),
-
-                        radial-gradient(circle at 113px 72px, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, .5) 25px, transparent 35px),
-                        radial-gradient(circle at 120px 70px, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, .5) 20px, transparent 35px),
-
-                        radial-gradient(circle at 90px 90px, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, .5) 15px, transparent 25px),
-
-                        radial-gradient(circle at 70px 60px, sienna 0, sienna 25px, transparent 55px, transparent 65px),
-                        radial-gradient(circle at 90px 60px, sienna 0, sienna 25px, transparent 55px, transparent 65px),
-
-                        radial-gradient(circle at 90px 70px, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, .5) 35px, transparent 50px),
-                        radial-gradient(circle at 90px 75px, transparent 0, transparent 35px, sienna 40px, transparent 45px),
-                        radial-gradient(circle at 90px 70px, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, .5) 30px, transparent 40px),
-
-                        radial-gradient(circle at 90px 80px, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, .5) 35px, transparent 50px),
-                        radial-gradient(circle at 90px 85px, transparent 0, transparent 35px, sienna 40px, transparent 45px),
-                        radial-gradient(circle at 90px 80px, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, .5) 30px, transparent 40px),
-
-                        radial-gradient(circle at 90px 90px, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, .5) 35px, transparent 50px),
-                        radial-gradient(circle at 90px 95px, transparent 0, transparent 35px, sienna 40px, transparent 45px),
-                        radial-gradient(circle at 90px 90px, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, .5) 30px, transparent 40px),
-
-                        radial-gradient(circle at 90px 120px, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, .5) 15px, transparent 30px),
-                        radial-gradient(circle at 90px 125px, transparent 0, transparent 15px, sienna 20px, transparent 25px),
-                        radial-gradient(circle at 90px 110px, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, .5) 15px, transparent 30px),
-
-                        radial-gradient(circle at 90px 140px, rgba(255, 255, 255, .5) 0, rgba(255, 255, 255, .5) 5px, transparent 20px),
-
-                        radial-gradient(circle at 90px 90px, brown 0, sienna 80px, #E6E6E6 85px, transparent 90px);
-}
-
-.latte div:before {
-    content: "";
-    position: absolute;
-    top: 80px;
-    left: -45px;
-    height: 25px;
-    width: 50px;
-    box-shadow: -8px 8px 10px rgba(0, 0, 0, 0.3);
-    background: linear-gradient(to right, darkgray 0, white 75%, darkgray 90%, #E6E6E6 98%);
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-}
-
-.latte div:after {
-    content: "";
-    position: absolute;
-    top: 50px;
-    left: 200px;
-    height: 150px;
-    width: 150px;
-    background-color: #CA9B26;
-    border-radius: 50%;
-    overflow:hidden;
-    background-image:   radial-gradient(circle at 40px 40px, #713A3A 0, #713A3A 15px, transparent 18px),
-                        radial-gradient(circle at 125px 90px, #713A3A 0, #713A3A 10px, transparent 13px),
-                        radial-gradient(circle at 55px 105px, #713A3A 0, #713A3A 11px, transparent 14px),
-                        radial-gradient(circle at 105px 20px, #713A3A 0, #713A3A 20px, transparent 23px);
-        box-shadow: -5px 5px 10px rgba(0, 0, 0, .3), inset 0 0 10px 10px white, inset 1px -1px 1px 15px darkgray;
 }
 
 .hamburger-animation {
@@ -554,7 +394,8 @@
     position: relative;
     padding: 20px;
     overflow-x: auto;
-    /* 95, 133, 175 */
+    /* X 50, +40, +105, ... */
+    /* Y 95, 133, 175 */
     /* oo o. oo o. */
     /* .. .o .o .o */
     /* .. o. .. .. */

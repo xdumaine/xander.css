@@ -1,0 +1,61 @@
+.bear {
+  background-color: goldenrod;
+}
+
+.bear div {
+  height: 230px;
+  width: 250px;
+  background-image:
+
+    radial-gradient(circle at 122px 68px, black 0px, black 5px, transparent 5px),
+    radial-gradient(circle at 128px 68px, black 0px, black 5px, transparent 5px),
+    radial-gradient(circle at 125px 72px, black 0px, black 5px, transparent 5px),
+    /* eyes */
+    radial-gradient(circle at 115px 65px, #795548 0, #795548 16px, transparent 16px),
+    radial-gradient(circle at 135px 65px, #795548 0, #795548 16px, transparent 16px),
+    radial-gradient(circle at 115px 55px, black 0, black 10px, transparent 10px),
+    radial-gradient(circle at 135px 55px, black 0, black 10px, transparent 10px),
+    radial-gradient(circle at 135px 65px, black 0, black 10px, transparent 10px),
+
+    /* mouth */
+    radial-gradient(circle at 120px 80px, #795548 0, #795548 16px, transparent 16px),
+    radial-gradient(circle at 130px 80px, #795548 0, #795548 16px, transparent 16px),
+    radial-gradient(circle at 120px 90px, black 0, black 10px, transparent 10px),
+    radial-gradient(circle at 130px 90px, black 0, black 10px, transparent 10px),
+
+    /* head */
+    radial-gradient(circle at 125px 70px, #795548 0, #795548 55px, transparent 55px),
+    /* left ear */
+    radial-gradient(circle at 100px 20px, beige 0, beige 10px, transparent 10px),
+    radial-gradient(circle at 100px 20px, #795548 0, #795548 15px, transparent 10px),
+    /* right ear */
+    radial-gradient(circle at 150px 20px, beige 0, beige 10px, transparent 10px),
+    radial-gradient(circle at 150px 20px, #795548 0, #795548 15px, transparent 10px),
+    /* left foot */
+    radial-gradient(circle at 68px 202px, beige 0, beige 4px, transparent 4px),
+    radial-gradient(circle at 68px 202px, #795548 0, #795548 6px, transparent 6px),
+    radial-gradient(circle at 75px 199px, beige 0, beige 4px, transparent 4px),
+    radial-gradient(circle at 75px 199px, #795548 0, #795548 6px, transparent 6px),
+    radial-gradient(circle at 83px 199px, beige 0, beige 4px, transparent 4px),
+    radial-gradient(circle at 83px 199px, #795548 0, #795548 6px, transparent 6px),
+    radial-gradient(circle at 91px 202px, beige 0, beige 4px, transparent 4px),
+    radial-gradient(circle at 91px 202px, #795548 0, #795548 6px, transparent 6px),
+
+    radial-gradient(circle at 80px 210px, beige 0, beige 10px, transparent 10px),
+    radial-gradient(circle at 80px 210px, #795548 0, #795548 15px, transparent 10px),
+    /* right foot */
+    radial-gradient(circle at 177px 202px, beige 0, beige 4px, transparent 4px),
+    radial-gradient(circle at 177px 202px, #795548 0, #795548 6px, transparent 6px),
+    radial-gradient(circle at 169px 199px, beige 0, beige 4px, transparent 4px),
+    radial-gradient(circle at 169px 199px, #795548 0, #795548 6px, transparent 6px),
+    radial-gradient(circle at 161px 199px, beige 0, beige 4px, transparent 4px),
+    radial-gradient(circle at 161px 199px, #795548 0, #795548 6px, transparent 6px),
+    radial-gradient(circle at 153px 202px, beige 0, beige 4px, transparent 4px),
+    radial-gradient(circle at 153px 202px, #795548 0, #795548 6px, transparent 6px),
+
+    radial-gradient(circle at 165px 210px, beige 0, beige 10px, transparent 10px),
+    radial-gradient(circle at 165px 210px, #795548 0, #795548 15px, transparent 10px),
+    /* torso */
+    radial-gradient(circle at 125px 145px, beige 0, beige 50px, #795548 50px, #795548 75px, transparent 7px)
+    ;
+}
