@@ -3,7 +3,7 @@
 @import 'latte.css';
 
 .inin-logo {
-    background-color: honeydew;
+    background-color: white;
 }
 
 .inin-logo div {
@@ -99,7 +99,7 @@
 }
 
 .webrtc {
-    background-color: silver;
+    background-color: #00bcd4;
 }
 
 .webrtc div {
